@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuevo Guido Spano</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: #f2f2f2;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        flex: 1;
+    }
+
+    .logo img {
+        max-width: 350px;
+    }
+
+    .content {
+        flex: 1;
+        text-align: center;
+    }
+
+    h1 {
+        color: #6c2c8f;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 40px;
+        color: #333;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 15px 40px;
+        border: 2px solid #6c2c8f;
+        border-radius: 50px;
+        text-decoration: none;
+        color: #6c2c8f;
+        font-weight: bold;
+        letter-spacing: 2px;
+        transition: 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #6c2c8f;
+        color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+        .container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .buttons {
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        <!-- Reemplazá por tu logo -->
+        <img src="logo.png" alt="Nuevo Guido Spano">
+    </div>
+
+    <div class="content">
+        <h1>Bienvenidos al<br>Nuevo Guido Spano</h1>
+        <p>Solicita una entrevista para conocer nuestra propuesta</p>
+
+        <div class="buttons">
+            <a href="#" class="btn">INICIAL</a>
+            <a href="#" class="btn">PRIMARIA</a>
+            <a href="#" class="btn">SECUNDARIA</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
